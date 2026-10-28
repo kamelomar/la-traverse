@@ -228,3 +228,19 @@ footer {
   text-decoration: underline;
 }
 
+/* 8. Lien vers l'éditorial */
+
+.lien-editorial {
+  display: inline-block;
+  color: var(--bordeaux);
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid var(--bordeaux);
+  padding-bottom: 3px;
+}
+
+.lien-editorial:hover {
+  color: var(--texte);
+  border-bottom-color: var(--texte);
+}
+
