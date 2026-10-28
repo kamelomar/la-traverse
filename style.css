@@ -168,3 +168,63 @@ footer {
     font-size: 1.7rem;
   }
 }
+
+/* 7. Mise en page des articles */
+
+.article {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.article h1 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.chapeau {
+  color: var(--bordeaux);
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.article > p:not(.surtitre, .chapeau, .signature, .retour) {
+  margin-bottom: 25px;
+}
+
+.article strong {
+  font-weight: bold;
+}
+
+.conclusion {
+  margin-top: 40px;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+}
+
+.signature {
+  margin-top: 45px;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+}
+
+.signature span {
+  color: var(--bordeaux);
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+}
+
+.retour {
+  margin-top: 45px;
+}
+
+.retour a {
+  color: var(--bordeaux);
+  text-decoration: none;
+}
+
+.retour a:hover {
+  text-decoration: underline;
+}
+
