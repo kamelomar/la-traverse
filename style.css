@@ -244,3 +244,42 @@ footer {
   border-bottom-color: var(--texte);
 }
 
+/* 9. Mise en valeur de la rubrique À la une */
+
+.a-la-une {
+  margin: 30px 0;
+  padding: 45px 50px;
+  background-color: #EEE6DA;
+  border-left: 4px solid var(--bordeaux);
+}
+
+.a-la-une .surtitre {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.a-la-une h2 {
+  max-width: 650px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 20px;
+}
+
+.extrait-article {
+  max-width: 620px;
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.a-la-une .lien-editorial {
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .a-la-une {
+    padding: 30px 22px;
+    margin: 15px 0;
+  }
+}
+
